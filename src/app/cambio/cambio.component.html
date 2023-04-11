@@ -1,5 +1,19 @@
 <input type="number" name="moeda1" [(ngModel)]="moeda1">
 
+<select #classe [(ngModel)]="cambio" (change)="execute(cambio)">
+
+  <option value="brlad">Real -> Dolar Americano</option>
+  <option value="brlcd">Real -> Dolar Canadense</option>
+
+  <option value="adcd">Dolar Americano -> Dolar Canadense</option>
+  <option value="adbrl">Dolar Americano -> Real</option>
+
+  <option value="cdad">Dolar Canadense -> Dolar Americano</option>
+  <option value="cdbrl">Dolar Canadense -> Real</option>
+
+</select>
+
+
 <button id="converter">Converter</button>
 
 <input type="number" name="moeda2" [(ngModel)]="moeda2" readonly>

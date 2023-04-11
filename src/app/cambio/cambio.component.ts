@@ -5,13 +5,38 @@ import { Component } from '@angular/core';
   templateUrl: './cambio.component.html',
   styleUrls: ['./cambio.component.css']
 })
+
 export class CambioComponent {
 
 moeda1 : number = 0;
 
 moeda2 : number = 0;
+cambio : any;
 
 constructor(){}
+
+execute(operacao){
+
+  switch(operacao){
+    case 'soma':
+      this.sum()
+    break
+
+    case 'div':
+      this.div()
+    break
+
+    case 'mult':
+      this.mult()
+    break
+
+    case 'sub':
+      this.sub()
+    break
+  }
+    }
+
+
 
 //real - dolar americano
 brlad(){
