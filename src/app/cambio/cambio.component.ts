@@ -14,6 +14,7 @@ moeda3 : number = 0;
 //real - dolar americano
 brlad(){
 
+ this.brlad = this.moeda1 / 5.07
 
 }
 
@@ -27,8 +28,24 @@ brlcd(){
 adcd(){
 
 
+}
+
+//dolar americano - real
+adbrl(){
+
 
 }
 
+//dolar canadense - dolar americano
+cdad(){
+
+
+}
+
+//dolar canadense - real
+cdbrl(){
+
+
+}
 
 }
