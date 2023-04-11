@@ -1,6 +1,8 @@
+<h1>Prova Prática 01</h1>
+
 <input type="number" name="moeda1" [(ngModel)]="moeda1">
 
-<select #classe [(ngModel)]="cambio" (change)="execute(cambio)">
+<select #classe [(ngModel)]="controle" (change)="execute(controle)">
 
   <option value="brlad">Real -> Dolar Americano</option>
   <option value="brlcd">Real -> Dolar Canadense</option>
@@ -13,7 +15,9 @@
 
 </select>
 
+Taxa de cambio<input type="number" name="moeda3" [(ngModel)]="moeda3">
 
-<button id="converter">Converter</button>
+
+<button (click)="execute(controle)">Converter</button>
 
 <input type="number" name="moeda2" [(ngModel)]="moeda2" readonly>
