@@ -55,7 +55,7 @@ brlad(){
 
   this.moeda3 = 1 *  0.20
 
-  this.moeda2 = this.moeda1 * this.moeda3
+
 
 }
 
@@ -64,7 +64,7 @@ brlcd(){
 
   this.moeda3 = 1 *  0.27
 
-  this.moeda2 = this.moeda1 * this.moeda3
+
 
 }
 
@@ -73,7 +73,7 @@ adcd(){
 
   this.moeda3 = 1 *  1.35
 
-  this.moeda2 = this.moeda1 * this.moeda3
+
 
 }
 
@@ -82,7 +82,7 @@ adbrl(){
 
   this.moeda3 = 1 *  5.07
 
-  this.moeda2 = this.moeda1 * this.moeda3
+
 
 }
 
@@ -91,7 +91,7 @@ cdad(){
 
   this.moeda3 = 1 *  0.74
 
-  this.moeda2 = this.moeda1 * this.moeda3
+
 
 }
 
@@ -99,6 +99,12 @@ cdad(){
 cdbrl(){
 
   this.moeda3 = 1 *  3.75
+
+
+
+}
+
+converter(){
 
   this.moeda2 = this.moeda1 * this.moeda3
 
